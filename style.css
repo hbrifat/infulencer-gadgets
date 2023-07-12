@@ -8,7 +8,19 @@ body{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #ffffff;   
+    background-color: #ffffff;
+    margin-top: 50px;   
+}
+
+.btn-primary {
+    border-radius: 41px;
+    background: #E02C6D;
+    border: none;   
+    color: #ffffff;
+    padding: 10px 24px;
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
 }
 
 /* header section */
@@ -39,6 +51,40 @@ body{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+/* header-banner section */
+
+.header-banner{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    display: flex;
+    gap: 133px;
+}
+
+.banner-description {
+    width: 582px;
+}
+
+.banner-title{
+    color: #3A3A3A;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.banner-info {
+    color: #3A3A3A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.header-banner img {
+    width: 440px;
+    height: 414px;
 }
 
 
