@@ -26,6 +26,10 @@ body{
     display: inline-flex;
     align-items: center;
     gap: 15px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 /* header section */
@@ -189,6 +193,45 @@ body{
     display: flex;
     justify-content: flex-end;
 }
+
+/* featured-products section */
+
+.featured-products {
+   margin: 100px 40px;
+   display: flex;
+   gap: 96px;
+}
+
+.featured-products img {
+    width: 404px;
+    height: 270px;
+    border-radius: 7px;
+}
+
+.featured-title {
+    color: #0A0826;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.featured-info {
+    color: #6C6C6C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    max-width: 500px;
+}
+
+.featured-description .btn-primary {
+    border-radius: 0;
+}
+
+
 
 
 
